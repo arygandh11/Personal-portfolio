@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Main CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio Website</title>
+</head>
+<body>
+    <!--Header Design  <a href="/Users/aryangandhi/Desktop/personal portfolio website/signature (1).png" class="logo">Portfolio</a>-->
+    <header class="header">
+        <img src="/Users/aryangandhi/Desktop/personal portfolio website/assets/Screenshot 2024-06-30 at 12.51.19 PM.png" alt="" class="logo">
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about-me-section">About Me</a>
+            <a href="#projects-section">Projects</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+    <!--Home Section Design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hey There, I'm</h3>
+            <h1>Aryan Gandhi</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I am currently a Sophomore studying Computer Science with a minor in Economics at Texas A&M University. I am interested in Backend Development and Machine Learning Applications.</p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/arygandhi11/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/aryan-gandhi23"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:arygandhi111@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <a href="Resume2.pdf" class="btn" download="/Users/aryangandhi/Desktop/personal portfolio website/assets/Resume2.pdf">Download Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="/Users/aryangandhi/Desktop/personal portfolio website/assets/1710793089424.jpeg" alt="">
+        </div>
+    </section>
+
+    <!--ABOUT SECTION-->
+    <section class="about-me-section" id="about-me-section">
+        <div class="container">
+            <div class="about-me-content">
+                <h1>About <span>Me</span></h1>
+
+                <h2>Get to know me!</h2>
+                <p>
+                    <span role="img" aria-label="wave">👋</span> Hey there! I'm a dedicated software developer with a passion for code and personal growth. 
+                    Currently, I'm a sophomore at Texas A&M taking advantage of the University Honors Program, pursuing a major in
+                    <span><b>Computer Science</b></span> and a minor in <span><b>Applied Mathematics</b></span> with a 4.0 GPA.
+                </p>
+                <p>
+                    My professional and personal projects have been an innovation playground for me. 
+                    <span><b>Cloud Infrastructure</b></span> and <span><b>Generative AI</b></span> fascinate me. Drawing on a solid foundation of math and an unyielding 
+                    pursuit of optimization, I work to simplify the complex and transform raw data into insight. I've also honed skills in modern frameworks, 
+                    navigated the world of <span><b>RESTful API calls</b></span>, and followed my curiosity into <span><b>mobile applications</b></span> to build bridges between user experience and technical excellence.
+                </p>
+                <p>
+                    Personal development isn't my only focus; I value collective growth as well. I'm actively looking for chances to work together, share knowledge, and grow with like-minded individuals, nurturing a dynamic environment where both personal and collective progress thrive.
+                </p>
+                <p>
+                    
+Whether you're here to explore my projects, share your insights, or discuss potential collaborations, I'm eager to connect with you. <span><b>Don't hesitate to reach out</span></b>—here's to progress, passion, and continuous learning!
+                </p>
+            </div>
+            <div class="about-me-cards" id="cardsContainer">
+                <div class="about-me-cards" id="cardsContainer">
+                    <h1>Certifications</h1>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="/Users/aryangandhi/Desktop/personal portfolio website/assets/Oracle_Professional_Badge__1_.png" alt="Cloud Certification">
+                            </div>
+                            <div class="card-back">
+                                <h2>Oracle Cloud Infrastructure 2024 Generative AI Certified Professional</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="/Users/aryangandhi/Desktop/personal portfolio website/assets/image (1).png" alt="Cloud Certification">
+                                <h3>Cloud</h3>
+                            </div>
+                            <div class="card-back">
+                                <h2>Microsoft Azure Cloud Fundamentals 2024 Certified Professional</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="/Users/aryangandhi/Desktop/personal portfolio website/assets/image.png" alt="Cloud Certification">
+                                <h3>Cloud</h3>
+                            </div>
+                            <div class="card-back">
+                                <h2>IBM Software Engineering and DevOPS fundamentals Professional</h2>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--SERVICES SECTION
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>blah blah stuff tudfosdfjosadnf jsdfhljsdhf jsdfhjk sdf</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>UI/UX Designing</h3>
+                <p>blah blah stuff tudfosdfjosadnf jsdfhljsdhf jsdfhjk sdf</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-mobile"></i>
+                <h3>App Development</h3>
+                <p>blah blah stuff tudfosdfjosadnf jsdfhljsdhf jsdfhjk sdf</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!--Projects Section-->
+    <section id="projects-section">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="project">
+            <div class="project-media">
+                <video autoplay loop muted>
+                    <source src="assets/Screen Recording 2024-06-28 at 5.14.45 PM.mov">
+                </video>
+                <img src="assets/Screenshot 2024-06-28 at 5.16.33 PM.png" alt="">
+            </div>
+            <div class="project-details">
+                <div class="description-container">
+                <h3><b>Perfect Snake</b></h3>
+                <p1>Machine Learning</p1>
+                <p>
+                    <b>Perfect Snake was my first toe into real machine learning waters. I learned how to:</b>
+                    <ul>
+                        <li>Properly manage DNQ agents</li>
+                        <li>Create multiple randomly generated actions</li>
+                        <li>Incentivize a reward system</li>
+                    </ul>
+                    <b>Working with the PyTorch library, I:</b>
+                    <ul>
+                        <li>Created my own agent class set to play the game</li>
+                        <li>Used Q-learning to train behavior through each game</li>
+                        <li>Incentivized a reward system</li>
+                    </ul>
+                    <b>I also utilized the PyTorch library Q-trainer to:</b>
+                    <ul>
+                        <li>Store and hold previous data committed to long and short term memory</li>
+                        <li>Present real-time analysis with Matplotlib</li>
+                    </ul>
+                </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="project-media">
+                <video autoplay loop muted>
+                    <source src="/Users/aryangandhi/Desktop/personal portfolio website/assets/muneyrec.mov">
+                </video>
+            </div>
+            <div class="project-details">
+                <div class="description-container">
+                <h3>Muney Jr.</h3>
+                <p><b>Software Development</b></p>
+                <ul>
+                    <li>A Responsive Website intended to teach Economics to children</li>
+                    <li>Removes pixel paths of least energy values until the image reaches desired size</li>
+                    <li>Interactive Quizzes and games to keep children engaged</li>
+                    <li>Over <b>900</b> website visits</li>
+                    <li>Utilized Artificial Intelligence to Predit Child understandability</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="project-media">
+                <img src="/Users/aryangandhi/Desktop/personal portfolio website/assets/Screenshot 2024-06-29 at 3.43.56 PM.png" alt="Project Image">
+            </div>
+            <div class="project-details">
+                <div class="description-container">
+                <h3>Web Scraping</h3>
+                <p><b>Data Science/Software Engineering</b></p>
+                <ul>
+                    <li>Created a Python web scraping software</li>
+                    <li>Reading nested HTML</li>
+                    <li>Distributing HTML into Pandas DataFrames</li>
+                    <li>Identifying trends related to output yields and distribution costs</li>
+                    <li>Isolating key variables affecting profitability</li>
+                    <li>Narrowing a decision hierarchy for maximizing profitability based on location and total cost with logistics</li>
+                    <li>Demonstrating through Matplotlib the correlation between chocolate quality rating, location, and use of raw materials</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-media">
+                <video autoplay loop muted>
+                    <source src="/Users/aryangandhi/Desktop/personal portfolio website/assets/Screen Recording 2024-06-29 at 3.53.42 PM.mov">
+                </video>
+                <video autoplay loop muted>
+                    <source src="/Users/aryangandhi/Desktop/personal portfolio website/assets/Screen Recording 2024-06-29 at 3.52.23 PM.mov">
+                </video>
+            </div>
+            <div class="project-details">
+                <div class="description-container">
+                <h3>Meals4U</h3>
+                <p><b>Application Development</b></p>
+                <ul>
+                    <li>An IOS and Andoid Application</li>
+                    <li>Helps connect home cooks to University Students in need for Home cooked food</li>
+                    <li>Utilized Firebase and NodeJs Backend and Flutter frontend Operations</li>
+                    <li>Identifying trends related to output yields and distribution costs</li>
+                    <li>Functioning Application that is set to soon be launched on the App Store with projected 1000+ downloads</li>
+                    <li>Co-founder of Meals4U</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact SECTION-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <input type="hidden" name="access_key" value="e9a8b6f2-3268-4749-9dbc-15483d4a692d">
+            <div class="input-box">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            </div>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    
+
+    <!--Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Typed name in the header-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <!-- Main JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
